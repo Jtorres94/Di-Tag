@@ -17,121 +17,53 @@ public class DiTag {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("producto");
-        mostrarProducto(leerString(),aguasYbebidas(),lacteos(),noPerecibles());//testeando para producto (sin validaciones)
-        mostrarCategoria(aguasYbebidas(),lacteos(),noPerecibles());//testeando las categorias
-        /*int a=indice(leerString(),aguasYbebidas()); prueba de metodo indice.
-        System.out.println(a);*/
+        
     }
-    public static String [][] aguasYbebidas(){//Productos de categoria aguas y bebidas
-        String [][]matriz = new String[3][10];
-        matriz[0][0]="crush";
-        matriz[0][1]="Libre de sellos";
-        matriz[0][2]="libre de Sellos";
-        matriz[0][3]="Alto en Azucares";
-        matriz[0][4]="Libre de sellos";
-        matriz[0][5]="104kcal (5%)";
-        matriz[0][6]="26g (29%";
-        matriz[0][7]="0 (0%)";
-        matriz[0][8]="0 (0%)";
-        matriz[0][9]="12mg (1%)";
-        matriz[1][0]="pure life";
-        matriz[1][1]="Libre de sellos";
-        matriz[1][2]="Libre de sellos";
-        matriz[1][3]="Libre de sellos";
-        matriz[1][4]="Libre de sellos";
-        matriz[1][5]="0kcal (0%)";
-        matriz[1][6]="0g (0%)";
-        matriz[1][7]="0 (0%)";
-        matriz[1][8]="0 (0%)";
-        matriz[1][9]="2mg (0%)";
-        matriz[2][0]="cocacola zero";
-        matriz[2][1]="Libre de sellos";
-        matriz[2][2]="Libre de sellos";
-        matriz[2][3]="Libre de sellos";
-        matriz[2][4]="Libre de sellos";
-        matriz[2][5]="0kcal (0%)";
-        matriz[2][6]="0g (0%)";
-        matriz[2][7]="0 (0%)";
-        matriz[2][8]="0 (0%)";
-        matriz[2][9]="35mg (1%)";
-        return matriz;
-    }
-    public static String [][] lacteos(){//productos de categoria lacteos o cualquier otro tipo de producto esta en revision
-        String [][]matriz = new String[3][10];
-        matriz[0][0]="Nombre 4";
+    public static String [][] aguasYBebidas(){//Productos de categoria aguas y bebidas
+        String [][]matriz = new String[3][3];
+        matriz[0][0]="Nombre";
         matriz[0][1]="Alto 1";
         matriz[0][2]="Alto 2";
-        matriz[0][3]="Alto 3";
-        matriz[0][4]="Alto 4";
-        matriz[0][5]="Calorias";
-        matriz[0][6]="Azucares totales";
-        matriz[0][7]="Grasas totales";
-        matriz[0][8]="Grasas saturadas";
-        matriz[0][9]="Sodio";
-        matriz[1][0]="Nombre 5";
-        matriz[1][1]="Alto 1";
-        matriz[1][2]="Alto 2";
-        matriz[1][3]="Alto 3";
-        matriz[1][4]="Alto 4";
-        matriz[1][5]="Calorias";
-        matriz[1][6]="Azucares totales";
-        matriz[1][7]="Grasas totales";
-        matriz[1][8]="Grasas saturadas";
-        matriz[1][9]="Sodio";
-        matriz[2][0]="Nombre 6";
-        matriz[2][1]="Alto 1";
-        matriz[2][2]="Alto 2";
-        matriz[2][3]="Alto 3";
-        matriz[2][4]="Alto 4";
-        matriz[2][5]="Calorias";
-        matriz[2][6]="Azucares totales";
-        matriz[2][7]="Grasas totales";
-        matriz[2][8]="Grasas saturadas";
-        matriz[2][9]="Sodio";
+        matriz[1][0]="Nombre1";
+        matriz[1][1]="Alto 3";
+        matriz[1][2]="Alto 4";
+        matriz[2][0]="Nombre2";
+        matriz[2][1]="Alto 5";
+        matriz[2][2]="Alto 6";
         return matriz;
     }
-    public static String [][] noPerecibles(){//productos de categoria no perecibles o cualquier otro tipo de producto esta en revision
-        String [][]matriz = new String[3][10];
-        matriz[0][0]="Nombre 7";
+    public static String [][] lacteos(){//productos de categoria lacteos
+        String [][]matriz = new String[3][3];
+        matriz[0][0]="Nombre";
         matriz[0][1]="Alto 1";
         matriz[0][2]="Alto 2";
-        matriz[0][3]="Alto 3";
-        matriz[0][4]="Alto 4";
-        matriz[0][5]="Calorias";
-        matriz[0][6]="Azucares totales";
-        matriz[0][7]="Grasas totales";
-        matriz[0][8]="Grasas saturadas";
-        matriz[0][9]="Sodio";
-        matriz[1][0]="Nombre 8";
-        matriz[1][1]="Alto 1";
-        matriz[1][2]="Alto 2";
-        matriz[1][3]="Alto 3";
-        matriz[1][4]="Alto 4";
-        matriz[1][5]="Calorias";
-        matriz[1][6]="Azucares totales";
-        matriz[1][7]="Grasas totales";
-        matriz[1][8]="Grasas saturadas";
-        matriz[1][9]="Sodio";
-        matriz[2][0]="Nombre 9";
-        matriz[2][1]="Alto 1";
-        matriz[2][2]="Alto 2";
-        matriz[2][3]="Alto 3";
-        matriz[2][4]="Alto 4";
-        matriz[2][5]="Calorias";
-        matriz[2][6]="Azucares totales";
-        matriz[2][7]="Grasas totales";
-        matriz[2][8]="Grasas saturadas";
-        matriz[2][9]="Sodio";
+        matriz[1][0]="Nombre1";
+        matriz[1][1]="Alto 3";
+        matriz[1][2]="Alto 4";
+        matriz[2][0]="Nombre2";
+        matriz[2][1]="Alto 5";
+        matriz[2][2]="Alto 6";
         return matriz;
     }
-    
+    public static String [][] noPerecibles(){//productos de categoria no perecibles
+        String [][]matriz = new String[3][3];
+        matriz[0][0]="Nombre";
+        matriz[0][1]="Alto 1";
+        matriz[0][2]="Alto 2";
+        matriz[1][0]="Nombre1";
+        matriz[1][1]="Alto 3";
+        matriz[1][2]="Alto 4";
+        matriz[2][0]="Nombre2";
+        matriz[2][1]="Alto 5";
+        matriz[2][2]="Alto 6";
+        return matriz;
+    }
     public static String leerString(){//le una cadena de tipo String
         Scanner leer = new Scanner(System.in);
         String cadena=leer.nextLine();
         return cadena;
     }
-    public static void mostrarMatriz(String [][]matriz){//muestra una matriz
+    public static void mostrarCategoria(String [][]matriz){//muestra una matriz
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 System.out.print(matriz[i][j]+"\t");
@@ -139,74 +71,37 @@ public class DiTag {
             System.out.println();
         }
     }
-       public static boolean existe(String producto,String [][]matriz){//valida si existe o no el producto en una matriz
-        boolean existe=false;
+    public static boolean existe(String producto,String [][]matriz){//valida si existe o no el producto en una matriz
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) 
-                if(matriz[i][j].equals(producto)){
-                    existe=true;
-                    break;
+            for (int j = 0; j < matriz[i].length; j++) {
+                if(matriz[i][j]==producto){
+                    return true;
+                }
             }
         }
-        return existe;
+        return false;
     }
-    
     public static int indice(String producto,String [][]matriz){//me indica el indice donde se encuentra el producto
         int indice=-1;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if(existe(producto,matriz) && producto.equals(matriz[i][j])){
+                if(existe(producto,matriz)){
                     indice=i;
-                    break;
                 }
             }
         }
         return indice;
     }
-    public static void mostrarProducto(String producto,String [][]matriz,String [][]matriz1,String [][]matriz2){//muestra el producto junto a la informacion de sus etiqutas nutricionales
-        if(indice(producto,matriz)!=-1){
-            for (int i = 0; i < matriz[0].length; i++) {
-                System.out.print(matriz[indice(producto,matriz)][i]+"\t");
-            }
-        }else
-            if(indice(producto,matriz1)!=-1){
-                for (int i = 0; i < matriz1[0].length; i++) {
-                    System.out.print(matriz1[indice(producto,matriz1)][i]+"\t");
-                }
-        }else
-            if(indice(producto,matriz1)!=-1){
-                for (int i = 0; i < matriz1[0].length; i++) {
-                    System.out.print(matriz1[indice(producto,matriz2)-1][i]+"\t");
-                }
-        }else
-                    System.out.println("No existe el producto");
+    public static void mostrarProducto(String [][]matriz){
         
     }
-    
-    public static void mostrarCategoria(String [][]matriz,String [][]matriz1,String [][]matriz2){//muestra una categoria elegida por el usuario
-        String opc;
-        System.out.println();
-        System.out.println("Elija categoria");
-        System.out.println("1.-Aguas y Bebidas");
-        System.out.println("2.-Lacteos");
-        System.out.println("3.-No perecibles");
-        opc=leerString();
-        switch(opc){
-            case "1":
-                mostrarMatriz(matriz);
-                break;
-            case "2":
-                mostrarMatriz(matriz1);
-                break;
-            case "3":
-                mostrarMatriz(matriz2);
-                break;
-            case "4":
-                System.exit(0);
-                break;
-            default:
-                System.out.println("Opcion no valida");
-                break;
-        }
+    public String minusculas(String cadena){//método para igualizar cadenas
+        cadena = cadena.toLowerCase();
+        return cadena;
     }
+    public String unEspacio(String cadena){//elimina doble espacios para facilitar la comparacion de cadenas
+        cadena = cadena.replace("  ", " ");
+        return cadena;
+    }
+    
 }
