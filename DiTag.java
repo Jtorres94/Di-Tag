@@ -17,12 +17,7 @@ public class DiTag {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /* System.out.println("Ingrese producto");
-        mostrarProducto(formatoProducto(leerString()),aguasYbebidas(),lacteos(),noPerecibles());//testeando para producto con validacion de formato basica(doble espaciado y transforma a minusculas)
-        mostrarCategoria(aguasYbebidas(),lacteos(),noPerecibles());//testeando las categorias
-        int a=indice(leerString(),aguasYbebidas()); prueba de metodo indice.
-        System.out.println(a);*/
-        menu();//test menu ya implementando ambos metodos previamente testeados
+        menu();
     }
     public static String [][] aguasYBebidas(){//Productos de categoria aguas y bebidas
         String [][]matriz = new String[3][10];
@@ -143,7 +138,7 @@ public class DiTag {
     boolean existe=false;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) 
-                if(matriz[i][j].equals(producto)){
+                if((formato(matriz[i][j]).equals(producto)){
                     existe=true;
                     break;
             }
@@ -206,17 +201,9 @@ public class DiTag {
                 break;
         }
     }
-    /*public String minusculas(String cadena){//método para igualizar cadenas
-        cadena = cadena.toLowerCase();
-        return cadena;
-    }
-    public String unEspacio(String cadena){//elimina doble espacios para facilitar la comparacion de cadenas
-        cadena = cadena.replace("  ", " ");
-        return cadena;
-    }*///(revisando cual de las dos formas es mejor si utilizar metodos distintos o uno solo para dar formato)
-    public static String formatoProducto(String producto){//da formato al String de entrada para tener coincidencia con los datos
+    public static String formato(String producto){//da formato al String de entrada para tener coincidencia con los datos
         producto = producto.toLowerCase();
-        producto = producto.replace("  "," ");
+        producto = producto.replace(" ","");
         return producto;
     }
      public static void opciones(){//metodo tipo void que muestra las opciones de nuestro menu principal
@@ -233,7 +220,7 @@ public class DiTag {
             switch(opc){
                 case "1":
                     System.out.println("Ingrese producto");
-                    mostrarProducto(formatoProducto(leerString()),aguasYbebidas(),lacteos(),noPerecibles());
+                    mostrarProducto(formato(leerString()),aguasYbebidas(),lacteos(),noPerecibles());
                     break;
                 case "2":
                     mostrarCategoria(aguasYbebidas(),lacteos(),noPerecibles());
