@@ -157,7 +157,7 @@ public class DiTag {
         }
         return indice;
     }
-    public static void mostrarProductoString producto,String [][]matriz,String [][]matriz1,String [][]matriz2){//muestra el producto junto a la informacion de sus etiqutas nutricionales
+    public static void mostrarProducto(String producto,String [][]matriz,String [][]matriz1,String [][]matriz2){//muestra el producto junto a la informacion de sus etiqutas nutricionales
          if(indice(producto,matriz)!=-1){
             for (int i = 0; i < matriz[0].length; i++) {
                 System.out.print(matriz[indice(producto,matriz)][i]+"\t");
