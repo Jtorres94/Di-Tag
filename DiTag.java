@@ -149,7 +149,7 @@ public class DiTag {
        int indice=-1;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if(existe(producto,matriz) && producto.equals(matriz[i][j])){
+                if(existe(producto,matriz) && producto.equals(formato(matriz[i][j]))){
                     indice=i;
                     break;
                 }
