@@ -21,7 +21,7 @@ public class DiTag {
     }
     public static String [][] aguasYBebidas(){//Productos de categoria aguas y bebidas
         String [][]matriz = new String[3][10];
-        matriz[0][0]="crush";
+        matriz[0][0]="Crush";
         matriz[0][1]="Libre de sellos";
         matriz[0][2]="libre de Sellos";
         matriz[0][3]="Alto en Azucares";
@@ -31,7 +31,7 @@ public class DiTag {
         matriz[0][7]="0 (0%)";
         matriz[0][8]="0 (0%)";
         matriz[0][9]="12mg (1%)";
-        matriz[1][0]="pure life";
+        matriz[1][0]="Pure life";
         matriz[1][1]="Libre de sellos";
         matriz[1][2]="Libre de sellos";
         matriz[1][3]="Libre de sellos";
@@ -41,7 +41,7 @@ public class DiTag {
         matriz[1][7]="0 (0%)";
         matriz[1][8]="0 (0%)";
         matriz[1][9]="2mg (0%)";
-        matriz[2][0]="cocacola zero";
+        matriz[2][0]="Cocacola zero";
         matriz[2][1]="Libre de sellos";
         matriz[2][2]="Libre de sellos";
         matriz[2][3]="Libre de sellos";
@@ -53,72 +53,72 @@ public class DiTag {
         matriz[2][9]="35mg (1%)";
         return matriz;
     }
-    public static String [][] lacteos(){//productos de categoria lacteos
+    public static String [][] snackSalados(){//productos de categoria lacteos
        String [][]matriz = new String[3][10];
-        matriz[0][0]="nombre 4";
-        matriz[0][1]="Alto 1";
-        matriz[0][2]="Alto 2";
-        matriz[0][3]="Alto 3";
-        matriz[0][4]="Alto 4";
-        matriz[0][5]="Calorias";
-        matriz[0][6]="Azucares totales";
-        matriz[0][7]="Grasas totales";
-        matriz[0][8]="Grasas saturadas";
-        matriz[0][9]="Sodio";
-        matriz[1][0]="nombre 5";
-        matriz[1][1]="Alto 1";
-        matriz[1][2]="Alto 2";
-        matriz[1][3]="Alto 3";
-        matriz[1][4]="Alto 4";
-        matriz[1][5]="Calorias";
-        matriz[1][6]="Azucares totales";
-        matriz[1][7]="Grasas totales";
-        matriz[1][8]="Grasas saturadas";
-        matriz[1][9]="Sodio";
-        matriz[2][0]="nombre 6";
-        matriz[2][1]="Alto 1";
-        matriz[2][2]="Alto 2";
-        matriz[2][3]="Alto 3";
-        matriz[2][4]="Alto 4";
-        matriz[2][5]="Calorias";
-        matriz[2][6]="Azucares totales";
-        matriz[2][7]="Grasas totales";
-        matriz[2][8]="Grasas saturadas";
-        matriz[2][9]="Sodio";
+        matriz[0][0]="Kryzpo";
+        matriz[0][1]="Alto en calorias";
+        matriz[0][2]="Libre de sellos";
+        matriz[0][3]="Libre de sellos";
+        matriz[0][4]="Libre de sellos";
+        matriz[0][5]="142kcal (7%)";
+        matriz[0][6]="0,1g (0%)";
+        matriz[0][7]="8,6g (16%)";
+        matriz[0][8]="1,0g (5%)";
+        matriz[0][9]="133mg (6%)";
+        matriz[1][0]="Lays";
+        matriz[1][1]="Alto en calorias";
+        matriz[1][2]="Libre de sellos";
+        matriz[1][3]="Libre de sellos";
+        matriz[1][4]="Libre de sellos";
+        matriz[1][5]="134g (6%)";
+        matriz[1][6]="<0,2 (N/A)";
+        matriz[1][7]="8,3g (15%)";
+        matriz[1][8]="1,0g (5%)";
+        matriz[1][9]="160mg (7%)";
+        matriz[2][0]="Selz";
+        matriz[2][1]="Alto en calorias";
+        matriz[2][2]="Alto en grasas saturadas";
+        matriz[2][3]="Libre sellos";
+        matriz[2][4]="Alto en sodio";
+        matriz[2][5]="169kcal (9%)";
+        matriz[2][6]="2,3g (3%)";
+        matriz[2][7]="8,3g (15%)";
+        matriz[2][8]="2,3g (11%)";
+        matriz[2][9]="309mg (13%)";
         return matriz;
     }
-    public static String [][] noPerecibles(){//productos de categoria no perecibles
+    public static String [][] cereales(){//productos de categoria no perecibles
          String [][]matriz = new String[3][10];
-        matriz[0][0]="nombre 7";
-        matriz[0][1]="Alto 1";
-        matriz[0][2]="Alto 2";
-        matriz[0][3]="Alto 3";
-        matriz[0][4]="Alto 4";
-        matriz[0][5]="Calorias";
-        matriz[0][6]="Azucares totales";
-        matriz[0][7]="Grasas totales";
-        matriz[0][8]="Grasas saturadas";
-        matriz[0][9]="Sodio";
-        matriz[1][0]="nombre 8";
-        matriz[1][1]="Alto 1";
-        matriz[1][2]="Alto 2";
-        matriz[1][3]="Alto 3";
-        matriz[1][4]="Alto 4";
-        matriz[1][5]="Calorias";
-        matriz[1][6]="Azucares totales";
-        matriz[1][7]="Grasas totales";
-        matriz[1][8]="Grasas saturadas";
-        matriz[1][9]="Sodio";
-        matriz[2][0]="nombre 9";
-        matriz[2][1]="Alto 1";
-        matriz[2][2]="Alto 2";
-        matriz[2][3]="Alto 3";
-        matriz[2][4]="Alto 4";
-        matriz[2][5]="Calorias";
-        matriz[2][6]="Azucares totales";
-        matriz[2][7]="Grasas totales";
-        matriz[2][8]="Grasas saturadas";
-        matriz[2][9]="Sodio";
+        matriz[0][0]="Chocapic";
+        matriz[0][1]="Alto en calorias";
+        matriz[0][2]="Libre de sellos";
+        matriz[0][3]="Libre de sellos";
+        matriz[0][4]="Libre de sellos";
+        matriz[0][5]="112kcal (6%)";
+        matriz[0][6]="5,0g (6%)";
+        matriz[0][7]="1,5g (3)";
+        matriz[0][8]="0,6g (3%)";
+        matriz[0][9]="97mg (4%)";
+        matriz[1][0]="Quaker cuadritos";
+        matriz[1][1]="Alto en calorias";
+        matriz[1][2]="Libre de sellos";
+        matriz[1][3]="Libre de sellos";
+        matriz[1][4]="Libre de sellos";
+        matriz[1][5]="114kcal (6%)";
+        matriz[1][6]="5,1g (N/A)";
+        matriz[1][7]="1,5g (3%)";
+        matriz[1][8]="0,3g (1%)";
+        matriz[1][9]="103mg (4%)";
+        matriz[2][0]="Fitness";
+        matriz[2][1]="Libre de sellos";
+        matriz[2][2]="Libre de sellos";
+        matriz[2][3]="Libre de sellos";
+        matriz[2][4]="Libre de sellos";
+        matriz[2][5]="103kcal (5%)";
+        matriz[2][6]="6,7g (7%)";
+        matriz[2][7]="0,8g (1%)";
+        matriz[2][8]="0,4g (2%)";
+        matriz[2][9]="102mg (4%)";
         return matriz;
     }
     public static String leerString(){//le una cadena de tipo String
@@ -180,8 +180,8 @@ public class DiTag {
         System.out.println();
         System.out.println("Elija categoria");
         System.out.println("1.-Aguas y Bebidas");
-        System.out.println("2.-Lacteos");
-        System.out.println("3.-No perecibles");
+        System.out.println("2.-Snaks Salados");
+        System.out.println("3.-Cereales");
         opc=leerString();
         switch(opc){
             case "1":
@@ -220,10 +220,10 @@ public class DiTag {
             switch(opc){
                 case "1":
                     System.out.println("Ingrese producto");
-                    mostrarProducto(formato(leerString()),aguasYbebidas(),lacteos(),noPerecibles());
+                    mostrarProducto(formato(leerString()),aguasYbebidas(),snackSalados(),cereales());
                     break;
                 case "2":
-                    mostrarCategoria(aguasYbebidas(),lacteos(),noPerecibles());
+                    mostrarCategoria(aguasYbebidas(),snackSalados(),cereales());
                     break;
                 case "3":
                     System.exit(0);
