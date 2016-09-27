@@ -19,7 +19,7 @@ public class DiTag {
     public static void main(String[] args) {
         menu();
     }
-    public static String [][] aguasYBebidas(){//Productos de categoria aguas y bebidas
+    public static String [][] aguasYbebidas(){//Productos de categoria aguas y bebidas
         String [][]matriz = new String[3][10];
         matriz[0][0]="Crush";
         matriz[0][1]="Libre de sellos";
@@ -138,7 +138,7 @@ public class DiTag {
     boolean existe=false;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) 
-                if((formato(matriz[i][j]).equals(producto)){
+                if(formato(matriz[i][j]).equals(producto)){
                     existe=true;
                     break;
             }
