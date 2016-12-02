@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="panelImagen1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelImagen1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="imagen.PanelImagen" name="panelImagen1">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1000, 600]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="564" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="lGrasasSat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lSelloSodio" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lCalorias" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lGrasasTot" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lAzucares" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lSodio" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lCategoria" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lSelloCal" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lSelloGras" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lSelloAzu" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="categoriaR" max="32767" attributes="0"/>
+                              <Component id="selloCalR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="selloGrasR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="selloAzuR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="selloSodR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="caloriasR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="azucaresR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="grasasTotR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="grasasSatR" alignment="0" max="32767" attributes="0"/>
+                              <Component id="sodioR" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="nombre" min="-2" pref="78" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="235" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="volver" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="volver" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                  <Component id="nombre" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lCategoria" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lSelloCal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lSelloGras" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lSelloAzu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lSelloSodio" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lCalorias" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lAzucares" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lGrasasTot" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lGrasasSat" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lSodio" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="categoriaR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="selloCalR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="selloGrasR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="selloAzuR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="selloSodR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="caloriasR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="azucaresR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="grasasTotR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="grasasSatR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="sodioR" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="178" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lCategoria">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Categoria:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lSelloCal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Calor&#xed;as :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lSelloGras">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Grasas :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lSelloAzu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Az&#xfa;cares :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lSelloSodio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Sodio :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lCalorias">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calor&#xed;as :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lAzucares">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Az&#xfa;cares :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lGrasasTot">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grasas Totales :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lGrasasSat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grasas Saturadas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lSodio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sodio :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sodioR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sodio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="grasasSatR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grasas Saturadas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="grasasTotR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grasas Totales"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="azucaresR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Azucares"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="caloriasR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calorias"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="selloSodR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Sodio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="selloAzuR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="selloAzucares"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="selloGrasR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Grasas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="selloCalR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sello Calorias"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="categoriaR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Categoria"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nombre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="volver">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="volver"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="volverActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

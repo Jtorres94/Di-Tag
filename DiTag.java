@@ -5,7 +5,14 @@
  */
 package di.tag;
 
+import VentanasBke.AdminVP;
+import VentanasFte.DitagVP;
+import datos.Busqueda;
+import backEnd.Administrador;
+import backEnd.Producto;
+import datos.Validacion;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -17,13 +24,37 @@ public class DiTag {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        menu();
+        /*Menu menu = new Menu();
+        menu.menu();*/
+        //AdminVP v = new AdminVP();
+        //v.setVisible(true);
+        //Administrador admin = new Administrador();
+        //Scanner leer = new Scanner(System.in);
+        //System.out.println("Ingrese id");
+        //String a = leer.nextLine();
+        //admin.eliminarAdmin(2);
+        //System.out.println("Ingrese contraseña");
+        //String b = leer.nextLine();
+        //admin.agregarAdmin(new Administrador(a, b));
+        DitagVP d = new DitagVP();
+        d.setVisible(true);
+        //Producto producto = new Producto();
+        //Busqueda busqueda = new Busqueda();
+
+        
+    }
+    /*public static boolean contiene(String cadena){
+        boolean c=false;
+        if(cadena.contains("Aguas y Bebidas")){
+            c=true;
+        }
+        return c;
     }
     public static String [][] aguasYbebidas(){//Productos de categoria aguas y bebidas
         String [][]matriz = new String[3][10];
         matriz[0][0]="Crush";
         matriz[0][1]="Libre de sellos";
-        matriz[0][2]="libre de Sellos";
+        matriz[0][2]="Libre de Sellos";
         matriz[0][3]="Alto en Azucares";
         matriz[0][4]="Libre de sellos";
         matriz[0][5]="104kcal (5%)";
@@ -233,5 +264,5 @@ public class DiTag {
                     break;
             }
         }while(!opc.equals("3"));
-    }
+    }*/
 }
